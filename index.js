@@ -1,7 +1,11 @@
 let headingElement = document.getElementById('headingElement')
 //Update the element (text,style)
-headingElement.innerText = 'Glad to have you here';
+headingElement.addEventListener('click',function(){
+let innerText =['Glad to have you here','You are most welcome','Hoooray','The Lord is Good']
+headingElement.style.innerText = text[Math.floor(Math.random()*text.length)];
+})
 headingElement.style.fontFamily = 'monospace';
+
 // Delete the element
 // headingElement.parentNode.removeChild(headingElement);
 //  let bodyElement = document.getElementById('body');
