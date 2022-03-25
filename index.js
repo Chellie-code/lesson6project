@@ -1,8 +1,4 @@
 let headingElement = document.getElementById('headingElement')
-//Update the element (text,style)
-//let button = document.getElementById('button');
-//let textArray =['Glad to have you here','You are most welcome','Hoooray','The Lord is Good']
-//headingElement.innerText= textArray[Math.floor(Math.random()*textArray.length)];
 headingElement.style.fontFamily = 'monospace';
 
 // Delete the element
